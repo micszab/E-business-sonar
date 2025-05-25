@@ -1,0 +1,8 @@
+organization=micszab
+projectKey=micszab_E-business
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.63733
+branch=7_Sonar
+dashboardUrl=https://sonarcloud.io/dashboard?id=micszab_E-business&branch=7_Sonar&resolved=false
+ceTaskId=AZcJX3eW-NnG2-ZXhaJO
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZcJX3eW-NnG2-ZXhaJO
