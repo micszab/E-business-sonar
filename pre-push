@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Running SonarScanner before push..."
+
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+sonar-scanner -Dsonar.branch.name="$BRANCH"
+
+if [ $? -ne 0 ]; then
+  echo "Sonar failed. Push aborted."
+  exit 1
+fi
+
+echo "Sonar completed. Proceeding with push."
+
+exit 0
